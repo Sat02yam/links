@@ -129,6 +129,7 @@ body {
 }
 
 .btn a {
+  width: 100%;
   -webkit-text-decoration-color: white;
           text-decoration-color: white;
   text-decoration-thickness: 0.1rem;
@@ -159,5 +160,20 @@ body {
 
 .link3 {
   background-color: #E12690;
+}
+
+.ico {
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px);
+}
+
+@media screen and (min-width: 480px) {
+  .card {
+    width: 320px;
+    height: 550px;
+  }
+  .btn {
+    height: 6vh;
+  }
 }
 /*# sourceMappingURL=maim.css.map */
