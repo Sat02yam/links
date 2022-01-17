@@ -23,12 +23,13 @@
 
 body{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     background-color: #F8F8F8;
     font-family: med, reg, bol, thi;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .card{
     display: flex;
@@ -121,4 +122,13 @@ body{
     .btn{
         height: 6vh;
     }
+}
+
+.tag{
+    position: absolute;
+    z-index: 34;
+    bottom: 10px;
+    font-family: thi;
+    font-size:0.8rem;
+    color: #555555;
 }
