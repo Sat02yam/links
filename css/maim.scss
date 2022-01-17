@@ -116,9 +116,47 @@ body{
 @media screen and (min-width: 480px){
     .card{
         width: 320px;
-        height: 550px;
+        height: 600px;
     }
     .btn{
         height: 6vh;
+    }
+}
+
+.bottom{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    width: 90%;
+    .left, .right{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        h4{
+            font-family: thi;
+            transform: translateY(-4px);
+            letter-spacing: 2px;
+        }
+    }
+
+    .left .bi, .right .bi {
+        transform: scale(0.5);
+    }
+
+    .dots{
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .one, .two{
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: black;
+        }
     }
 }

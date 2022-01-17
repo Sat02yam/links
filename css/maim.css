@@ -170,10 +170,69 @@ body {
 @media screen and (min-width: 480px) {
   .card {
     width: 320px;
-    height: 550px;
+    height: 600px;
   }
   .btn {
     height: 6vh;
   }
+}
+
+.bottom {
+  background-color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+.bottom .left, .bottom .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.bottom .left h4, .bottom .right h4 {
+  font-family: thi;
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  letter-spacing: 2px;
+}
+
+.bottom .left .bi, .bottom .right .bi {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+
+.bottom .dots {
+  width: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.bottom .dots .one, .bottom .dots .two {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: black;
 }
 /*# sourceMappingURL=maim.css.map */
