@@ -138,9 +138,12 @@ body{
 
         h4{
             font-family: thi;
-            transform: translateY(-4px);
+            transform: translateY(-5px);
             letter-spacing: 2px;
         }
+    }
+    .left{
+        opacity: 0;
     }
 
     .left .bi, .right .bi {
@@ -152,11 +155,31 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        .one, .two{
+        .one{
             width: 6px;
             height: 6px;
             border-radius: 50%;
             background-color: black;
         }
+        .two{
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: black;
+            opacity: 0.4;
+        }
     }
 }
+
+.linkm{
+    background-color: blueviolet;
+    width: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+    height: 100%;
+}
+
