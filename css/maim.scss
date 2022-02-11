@@ -74,7 +74,7 @@ body{
 .btn{
     background-color: #4E91E6;
     width: 80%;
-    height: 6vh;
+    height: 6rem;
     border-radius: 6px;
     display: flex;
     align-items: center;
@@ -124,7 +124,7 @@ body{
 }
 
 .bottom{
-    background-color: aqua;
+    // background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -135,6 +135,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        transition: 100ms ease;
 
         h4{
             font-family: thi;
@@ -144,6 +145,7 @@ body{
     }
     .left{
         opacity: 0;
+        transform: translateX(-10px);
     }
 
     .left .bi, .right .bi {
@@ -160,6 +162,7 @@ body{
             height: 6px;
             border-radius: 50%;
             background-color: black;
+            transition: 500ms;
         }
         .two{
             width: 6px;
@@ -167,19 +170,43 @@ body{
             border-radius: 50%;
             background-color: black;
             opacity: 0.4;
+            transition: 500ms;
         }
     }
 }
 
 .linkm{
-    background-color: blueviolet;
+    // background-color: blueviolet;
     width: 200%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: fit-content;
 }
 
-.links{
-    height: 100%;
+.linkm .links{
+    height: fit-content;
+    // background-color: aqua;
 }
 
+
+.btn{
+    height: 2.6rem;
+    margin-top: 10px;
+}
+
+.linkm{
+    transform: translateX(10rem);
+    transition: 500ms;
+}
+.card{
+    overflow: hidden;
+}
+
+.rightb{
+    opacity: 0;
+}
+
+.kekeke{
+    display: none;
+}
